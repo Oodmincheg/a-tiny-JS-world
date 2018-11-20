@@ -7,7 +7,23 @@
 
 // ======== OBJECTS DEFINITIONS ========
 // Define your objects here
+const Inhabition = function(species, name, gender, legs, hands, saying){
+    this.species = species;
+    this.name = name;
+    this.gender = gender;
+    this.legs = legs;
+    this.hands = hands;
+    this.saying = saying
+}
 
+const dog = new Inhabition('dog', 'Mr. Pickles', 'male', 4, 0, "MRRRR. PIIICLEEESSSS GOOOOD BOOOOOYYYY")
+const cat = new Inhabition('cat', 'Felix', 'male', '4', '0', 'Felix the cat. The wonderful, wonderful cat!')
+const man = new Inhabition('human', 'Luntik', 'male', '2', '2', 'Ya rodilsya')
+const woman = new Inhabition('human', 'Eva', 'female', '2', '2', 'Ya sozdana iz rebra')
+print(dog.species + ';' + dog.name + ';' + dog.gender + ';' + dog.legs + ';' + dog.hands + ';' + dog.saying)
+print(cat.species + ';' + cat.name + ';' + cat.gender + ';' + cat.legs + ';' + cat.hands + ';' + cat.saying)
+print(man.species + ';' + man.name + ';' + man.gender + ';' + man.legs + ';' + man.hands + ';' + man.saying)
+print(woman.species + ';' + woman.name + ';' + woman.gender + ';' + woman.legs + ';' + woman.hands + ';' + woman.saying)
 
 // ======== OUTPUT ========
 /* Use print(message) for output.

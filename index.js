@@ -7,15 +7,15 @@
 
 // ======== OBJECTS DEFINITIONS ========
 // Define your objects here
-const Inhabition = function(species, name, gender, legs, hands, saying){
-    this.species = species;
+const Inhabition = function(specie, name, gender, legs, hands, saying){
+    this.specie = specie;
     this.name = name;
     this.gender = gender;
     this.legs = legs;
     this.hands = hands;
     this.saying = saying
     this.hands == 0 ? this.handsString = "no" : this.handsString = this.hands
-    this.hiString = `"${this.saying}"\n Hi. I'm ${this.name}. I'm ${this.species}. I have ${this.handsString} hands. I have ${this.legs} legs. And I'm ${this.gender}\n `
+    this.hiString = `"${this.saying}"\n Hi. I'm ${this.name}. I'm a ${this.specie}. I have ${this.handsString} hands. I have ${this.legs} legs. And I'm a ${this.gender}\n `
     
 }
 
